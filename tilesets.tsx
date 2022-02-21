@@ -6,6 +6,11 @@
    <property name="start" value="random"/>
   </properties>
  </tile>
+ <tile id="1184">
+  <properties>
+   <property name="collides" type="bool" value="true"/>
+  </properties>
+ </tile>
  <tile id="1185">
   <properties>
    <property name="collides" type="bool" value="true"/>
