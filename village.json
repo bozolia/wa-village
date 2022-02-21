@@ -329,8 +329,36 @@
  "tileheight":32,
  "tilesets":[
         {
+         "columns":32,
          "firstgid":1,
-         "source":"tilesets.tsx"
+         "image":"tilesets.png",
+         "imageheight":3168,
+         "imagewidth":1024,
+         "margin":0,
+         "name":"tilesets",
+         "spacing":0,
+         "tilecount":3168,
+         "tileheight":32,
+         "tiles":[
+                {
+                 "id":1160,
+                 "properties":[
+                        {
+                         "name":"start",
+                         "type":"string",
+                         "value":"random"
+                        }]
+                }, 
+                {
+                 "id":1185,
+                 "properties":[
+                        {
+                         "name":"collides",
+                         "type":"bool",
+                         "value":true
+                        }]
+                }],
+         "tilewidth":32
         }],
  "tilewidth":32,
  "type":"map",
