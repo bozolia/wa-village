@@ -180,7 +180,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"#random"
+                 "value":"random"
                 }],
          "type":"tilelayer",
          "visible":true,
