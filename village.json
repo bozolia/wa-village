@@ -17,6 +17,11 @@
          "opacity":1,
          "properties":[
                 {
+                 "name":"start",
+                 "type":"string",
+                 "value":"random"
+                }, 
+                {
                  "name":"startLayer",
                  "type":"bool",
                  "value":true
