@@ -17,11 +17,6 @@
          "opacity":1,
          "properties":[
                 {
-                 "name":"start",
-                 "type":"string",
-                 "value":"random"
-                }, 
-                {
                  "name":"startLayer",
                  "type":"bool",
                  "value":true
@@ -180,7 +175,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"random"
+                 "value":"#random"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -313,8 +308,8 @@
                  "properties":[
                         {
                          "name":"start",
-                         "type":"string",
-                         "value":"random"
+                         "type":"bool",
+                         "value":true
                         }]
                 }, 
                 {
