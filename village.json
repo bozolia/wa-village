@@ -175,7 +175,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"village.json#random"
+                 "value":"village.json#rando"
                 }],
          "type":"tilelayer",
          "visible":true,
