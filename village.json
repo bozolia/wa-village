@@ -308,8 +308,8 @@
                  "properties":[
                         {
                          "name":"start",
-                         "type":"bool",
-                         "value":true
+                         "type":"string",
+                         "value":"random"
                         }]
                 }, 
                 {
