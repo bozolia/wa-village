@@ -15,6 +15,12 @@
          "id":7,
          "name":"start",
          "opacity":1,
+         "properties":[
+                {
+                 "name":"blop",
+                 "type":"string",
+                 "value":""
+                }],
          "type":"tilelayer",
          "visible":true,
          "width":72,
