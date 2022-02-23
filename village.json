@@ -175,7 +175,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"https:\/\/play.workadventu.re\/_\/woot\/bozolia.github.io\/wa-village\/village.json#random"
+                 "value":"\/_\/woot\/bozolia.github.io\/wa-village\/village.json#random"
                 }],
          "type":"tilelayer",
          "visible":true,
