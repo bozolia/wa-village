@@ -157,7 +157,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"\/_\/woot\/bozolia.github.io\/wa-village\/village.json#random"
+                 "value":"#random"
                 }],
          "type":"tilelayer",
          "visible":true,
