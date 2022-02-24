@@ -29,9 +29,9 @@
          "opacity":1,
          "properties":[
                 {
-                 "name":"jistsiRoom",
+                 "name":"jitsiRoom",
                  "type":"string",
-                 "value":"https:\/\/coremeet.workadventu.re\/devopsdevopsrvdplayvirtualofficedevopsbulle7"
+                 "value":"devopsdevopsrvdplayvirtualofficedevopsbulle7"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -47,9 +47,9 @@
          "opacity":1,
          "properties":[
                 {
-                 "name":"jistsiRoom",
+                 "name":"jitsiRoom",
                  "type":"string",
-                 "value":"https:\/\/coremeet.workadventu.re\/devopsdevopsrvdplayvirtualofficedevopsbulle6"
+                 "value":"devopsdevopsrvdplayvirtualofficedevopsbulle6"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -65,9 +65,9 @@
          "opacity":1,
          "properties":[
                 {
-                 "name":"jistsiRoom",
+                 "name":"jitsiRoom",
                  "type":"string",
-                 "value":"https:\/\/coremeet.workadventu.re\/devopsdevopsrvdplayvirtualofficedevopsbulle5"
+                 "value":"devopsdevopsrvdplayvirtualofficedevopsbulle5"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -83,9 +83,9 @@
          "opacity":1,
          "properties":[
                 {
-                 "name":"jistsiRoom",
+                 "name":"jitsiRoom",
                  "type":"string",
-                 "value":"https:\/\/coremeet.workadventu.re\/devopsdevopsrvdplayvirtualofficedevopsbulle4"
+                 "value":"devopsdevopsrvdplayvirtualofficedevopsbulle4"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -101,9 +101,9 @@
          "opacity":1,
          "properties":[
                 {
-                 "name":"jistsiRoom",
+                 "name":"jitsiRoom",
                  "type":"string",
-                 "value":"https:\/\/coremeet.workadventu.re\/devopsdevopsrvdplayvirtualofficedevopsbulle3"
+                 "value":"devopsdevopsrvdplayvirtualofficedevopsbulle3"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -119,9 +119,9 @@
          "opacity":1,
          "properties":[
                 {
-                 "name":"jistsiRoom",
+                 "name":"jitsiRoom",
                  "type":"string",
-                 "value":"https:\/\/coremeet.workadventu.re\/devopsdevopsrvdplayvirtualofficedevopsbulle2"
+                 "value":"devopsdevopsrvdplayvirtualofficedevopsbulle2"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -137,9 +137,9 @@
          "opacity":1,
          "properties":[
                 {
-                 "name":"jistsiRoom",
+                 "name":"jitsiRoom",
                  "type":"string",
-                 "value":"https:\/\/coremeet.workadventu.re\/devopsdevopsrvdplayvirtualofficedevopsbulle1"
+                 "value":"devopsdevopsrvdplayvirtualofficedevopsbulle1"
                 }],
          "type":"tilelayer",
          "visible":true,
