@@ -16,7 +16,7 @@
          "name":"start",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":72,
          "x":0,
          "y":0
@@ -34,7 +34,7 @@
                  "value":true
                 }],
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":72,
          "x":0,
          "y":0
@@ -52,7 +52,7 @@
                  "value":"devopsdevopsrvdplayvirtualofficedevopsbulle8"
                 }],
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":72,
          "x":0,
          "y":0
@@ -70,7 +70,7 @@
                  "value":"devopsdevopsrvdplayvirtualofficedevopsbulle7"
                 }],
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":72,
          "x":0,
          "y":0
@@ -88,7 +88,7 @@
                  "value":"devopsdevopsrvdplayvirtualofficedevopsbulle6"
                 }],
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":72,
          "x":0,
          "y":0
@@ -106,7 +106,7 @@
                  "value":"devopsdevopsrvdplayvirtualofficedevopsbulle5"
                 }],
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":72,
          "x":0,
          "y":0
@@ -124,7 +124,7 @@
                  "value":"devopsdevopsrvdplayvirtualofficedevopsbulle4"
                 }],
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":72,
          "x":0,
          "y":0
@@ -142,7 +142,7 @@
                  "value":"devopsdevopsrvdplayvirtualofficedevopsbulle3"
                 }],
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":72,
          "x":0,
          "y":0
@@ -160,7 +160,7 @@
                  "value":"devopsdevopsrvdplayvirtualofficedevopsbulle2"
                 }],
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":72,
          "x":0,
          "y":0
@@ -178,7 +178,7 @@
                  "value":"devopsdevopsrvdplayvirtualofficedevopsbulle1"
                 }],
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":72,
          "x":0,
          "y":0
@@ -196,7 +196,7 @@
                  "value":"#angular"
                 }],
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":72,
          "x":0,
          "y":0
