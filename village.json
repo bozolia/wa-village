@@ -448,6 +448,11 @@
                  "name":"Type",
                  "type":"string",
                  "value":"variable"
+                }, 
+                {
+                 "name":"class",
+                 "type":"string",
+                 "value":"variable"
                 }],
          "type":"objectgroup",
          "visible":true,
