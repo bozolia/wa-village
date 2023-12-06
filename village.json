@@ -440,20 +440,27 @@
         {
          "draworder":"topdown",
          "id":56,
-         "name":"incident",
-         "objects":[],
-         "opacity":1,
-         "properties":[
+         "name":"variables",
+         "objects":[
                 {
-                 "name":"class",
-                 "type":"string",
-                 "value":"variable"
-                }, 
-                {
-                 "name":"type",
-                 "type":"string",
-                 "value":"variable"
+                 "height":0,
+                 "id":12,
+                 "name":"incident",
+                 "point":true,
+                 "properties":[
+                        {
+                         "name":"default",
+                         "type":"string",
+                         "value":"stop"
+                        }],
+                 "rotation":0,
+                 "type":"variable",
+                 "visible":true,
+                 "width":0,
+                 "x":17,
+                 "y":69
                 }],
+         "opacity":1,
          "type":"objectgroup",
          "visible":true,
          "x":0,
@@ -543,7 +550,7 @@
          "y":0
         }],
  "nextlayerid":57,
- "nextobjectid":12,
+ "nextobjectid":14,
  "orientation":"orthogonal",
  "properties":[
         {
