@@ -1,21 +1,22 @@
 const menuIncident = WA.ui.registerMenuCommand('Incident',
 {
   callback: () => {
-    WA.chat.sendChatMessage('Incident !');
+    WA.event.broadcast("incident", "start");
   }
 })
 const menuFinIncident = WA.ui.registerMenuCommand('Fin Incident',
 {
   callback: () => {
-    WA.chat.sendChatMessage("Incident résolu !");
+    WA.event.broadcast("incident", "stop");
   }
 })
 
-WA.chat.onChatMessage((message => {
-  if (message === 'Incident !') {
+WA.event.on("incident").subscribe((event) => {
+  if (event.value === 'start') {
     WA.room.showLayer("ground-danger");
   }
-  if (message === 'Incident résolu !') {
+  if (event.value === 'stop') {
     WA.room.hideLayer("ground-danger");
-  }
-}));
+  }  
+});
+
