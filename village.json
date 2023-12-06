@@ -445,12 +445,12 @@
          "opacity":1,
          "properties":[
                 {
-                 "name":"Type",
+                 "name":"class",
                  "type":"string",
                  "value":"variable"
                 }, 
                 {
-                 "name":"class",
+                 "name":"type",
                  "type":"string",
                  "value":"variable"
                 }],
