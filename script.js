@@ -1,3 +1,8 @@
+
+if(!WA.state.hasVariable('incident')) {
+  WA.state.saveVariable('incident', 'stop');
+}
+
 const menuIncident = WA.ui.registerMenuCommand('Incident',
 {
   callback: () => {
