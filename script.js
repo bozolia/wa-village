@@ -2,26 +2,24 @@ const menuIncident = WA.ui.registerMenuCommand('Incident',
 {
   callback: () => {
     console.log('debut incident');
-    WA.event.broadcast("incident", "start");
+    WA.state.saveVariable('incident', 'start');
   }
 })
 const menuFinIncident = WA.ui.registerMenuCommand('Fin Incident',
 {
   callback: () => {
     console.log('fin incident')
-    WA.event.broadcast("incident", "stop");
+    WA.state.saveVariable('incident', 'stop');
   }
 })
 
-setTimeout(() => {
-  WA.event.on("incident").subscribe((event) => {
-    console.log('incident', event.value);
-    if (event.value === 'start') {
-      WA.room.showLayer("ground-danger");
-    }
-    if (event.value === 'stop') {
-      WA.room.hideLayer("ground-danger");
-    }  
-  });
-}, 2000);
+WA.state.onVariableChange('incident', (value) => {
+  console.log('incident', value);
+  if (value === 'start') {
+    WA.room.showLayer("ground-danger");
+  }
+  if (value === 'stop') {
+    WA.room.hideLayer("ground-danger");
+  }
+})
 
