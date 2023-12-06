@@ -13,13 +13,15 @@ const menuFinIncident = WA.ui.registerMenuCommand('Fin Incident',
   }
 })
 
-WA.event.on("incident").subscribe((event) => {
-  console.log('incident', event.value);
-  if (event.value === 'start') {
-    WA.room.showLayer("ground-danger");
-  }
-  if (event.value === 'stop') {
-    WA.room.hideLayer("ground-danger");
-  }  
-});
+setTimeout(() => {
+  WA.event.on("incident").subscribe((event) => {
+    console.log('incident', event.value);
+    if (event.value === 'start') {
+      WA.room.showLayer("ground-danger");
+    }
+    if (event.value === 'stop') {
+      WA.room.hideLayer("ground-danger");
+    }  
+  });
+}, 2000);
 
