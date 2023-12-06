@@ -1,13 +1,13 @@
 const menuIncident = WA.ui.registerMenuCommand('Incident',
 {
   callback: () => {
-    WA.chat.sendChatMessage('Incident !', { author: 'ChatDEVOPS' });
+    WA.chat.sendChatMessage('Incident !');
   }
 })
 const menuFinIncident = WA.ui.registerMenuCommand('Fin Incident',
 {
   callback: () => {
-    WA.chat.sendChatMessage("Incident résolu !", { author: 'ChatDEVOPS' });
+    WA.chat.sendChatMessage("Incident résolu !");
   }
 })
 
