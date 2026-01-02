@@ -176,7 +176,7 @@
         {
          "columns":31,
          "firstgid":1,
-         "image":"..\/map-starter-kit\/office.tmj",
+         "image":"src\/assets\/office.tmj",
          "imageheight":672,
          "imagewidth":992,
          "margin":0,
